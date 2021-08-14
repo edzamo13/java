@@ -24,7 +24,11 @@
 				<p:inputText id="correoElectronicoLabel" required="true"
 					requiredMessage="Campo requerido"
 					value="#{clienteController.cliente.correoElectronico}"
-					autocomplete="off" />
+					validatorMessage="Invalid email format" autocomplete="off">
+					<f:validateRegex
+						pattern="^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" />
+
+				</p:inputText>
 				<h:message for="correoElectronicoLabel" errorClass="invalid" />
 
 				<h:outputLabel for="numeroTelefono" value="Número Telefónico:" />
