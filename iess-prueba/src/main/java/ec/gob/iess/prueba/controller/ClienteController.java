@@ -9,9 +9,7 @@ import javax.faces.application.FacesMessage;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
-
 import org.primefaces.PrimeFaces;
-
 import ec.gob.iess.prueba.model.Cliente;
 import ec.gob.iess.prueba.servicio.ClienteServicio;
 import lombok.Getter;
