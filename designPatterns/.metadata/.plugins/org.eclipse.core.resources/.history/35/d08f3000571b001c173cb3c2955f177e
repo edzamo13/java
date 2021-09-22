@@ -1,0 +1,29 @@
+package ec.com.openwebinar.solid.liskovSubtitutionPrinciple.solution;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ReadOnlySqlFile implements SqlFile{
+
+	
+	private String filePath;
+	private String fileText;
+	
+	
+	@Override
+	public String loadText() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String saveText() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

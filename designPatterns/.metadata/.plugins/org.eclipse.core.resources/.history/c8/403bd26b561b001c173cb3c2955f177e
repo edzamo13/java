@@ -1,0 +1,8 @@
+package ec.com.openwebinar.solid.liskovSubtitutionPrinciple.solution;
+
+public interface ISqlFile {
+
+	public String loadText();
+
+	public String saveText();
+}

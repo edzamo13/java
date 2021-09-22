@@ -1,0 +1,22 @@
+package ec.com.openwebinar.solid.liskovSubtitutionPrinciple.solution;
+
+
+public class ReadOnlySqlFile implements ISqlFile{
+
+	private String filePath;
+	private String fileText;
+	
+	
+	@Override
+	public String loadText() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String saveText() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

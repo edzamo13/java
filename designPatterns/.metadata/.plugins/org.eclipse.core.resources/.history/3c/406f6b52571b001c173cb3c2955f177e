@@ -1,0 +1,6 @@
+package ec.com.openwebinar.solid.liskovSubtitutionPrinciple.solution;
+
+public class SqlFile {
+
+	
+}
