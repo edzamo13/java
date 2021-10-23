@@ -46,3 +46,8 @@ target/
 
 # Locally stored "Eclipse launch configurations"
 *.launch
+
+# file: ~/.gitignore_global
+.DS_Store
+.idea
+
