@@ -1,4 +1,4 @@
-package ec.udemy.section3;
+package ec.udemy.section4;
 
 @FunctionalInterface
 public interface FunctionalGenerics<T, R> {
