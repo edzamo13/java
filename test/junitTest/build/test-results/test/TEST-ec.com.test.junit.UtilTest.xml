@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ec.com.test.junit.UtilTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-02-08T02:39:51" hostname="MacBook-Pro-Edwin.local" time="0.054">
+  <properties/>
+  <testcase name="test_createLanguageClass()" classname="ec.com.test.junit.UtilTest" time="0.04"/>
+  <testcase name="test_getLanguages()" classname="ec.com.test.junit.UtilTest" time="0.002"/>
+  <testcase name="test_getLanguageClass()" classname="ec.com.test.junit.UtilTest" time="0.002"/>
+  <testcase name="test_getNumber()" classname="ec.com.test.junit.UtilTest" time="0.001"/>
+  <testcase name="test_addLanguageClass()" classname="ec.com.test.junit.UtilTest" time="0.001"/>
+  <testcase name="test_addLanguage()" classname="ec.com.test.junit.UtilTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // https://mvnrepository.com/artifact/org.powermock/powermock-mockito-release-full
+    testImplementation group: 'org.powermock', name: 'powermock-mockito-release-full', version: '1.5.4', ext: 'pom'
+    // https://mvnrepository.com/artifact/org.powermock/powermock-api-mockito-common
+    testImplementation group: 'org.powermock', name: 'powermock-api-mockito-common', version: '1.7.0'
+    // https://mvnrepository.com/artifact/org.powermock/powermock-module-junit4
+    testImplementation group: 'org.powermock', name: 'powermock-module-junit4', version: '1.7.1'
+
+
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
