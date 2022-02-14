@@ -1,4 +1,4 @@
-package com.basicsstrong.functional.section13;
+package ec.udemy.section12.playingCollector;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

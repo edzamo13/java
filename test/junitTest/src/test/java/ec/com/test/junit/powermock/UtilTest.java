@@ -1,4 +1,4 @@
-package ec.com.test.junit;
+package ec.com.test.junit.powermock;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package ec.com.test.junit;
+package ec.com.test.junit.powermock;
 
 import java.util.ArrayList;
 import java.util.List;
