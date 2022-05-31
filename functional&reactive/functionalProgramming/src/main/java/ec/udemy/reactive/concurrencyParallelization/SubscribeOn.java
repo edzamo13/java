@@ -9,7 +9,7 @@ public class SubscribeOn {
     public static void main(String[] args) throws InterruptedException {
 
         Observable
-                .just("Pasta ", "Pizza", "Rabioles", "Curry", "Chow mein")
+                .just("Pasta ", "Pizza", "Rabioles", "Curry", "Chow mein", "other value", "Other product..")
                 .unsubscribeOn(Schedulers.computation())
                 .map(s -> s.toUpperCase())
                 .subscribeOn(Schedulers.newThread())

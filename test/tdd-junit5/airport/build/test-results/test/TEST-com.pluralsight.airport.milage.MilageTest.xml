@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pluralsight.airport.milage.MilageTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-02T18:53:44" hostname="MacBook-Pro-Edwin.local" time="0.058">
+  <properties/>
+  <testcase name="[1] 1; e; Mike; false; 349" classname="com.pluralsight.airport.milage.MilageTest" time="0.045"/>
+  <testcase name="[2] 2; b; John; true; 278" classname="com.pluralsight.airport.milage.MilageTest" time="0.001"/>
+  <testcase name="[3] 3; e; Mike; false; 319" classname="com.pluralsight.airport.milage.MilageTest" time="0.001"/>
+  <testcase name="[4] 4; p; John; true; 817" classname="com.pluralsight.airport.milage.MilageTest" time="0.001"/>
+  <testcase name="[5] 5; e; Mike; false; 623" classname="com.pluralsight.airport.milage.MilageTest" time="0.001"/>
+  <testcase name="[6] 6; e; John; true; 978" classname="com.pluralsight.airport.milage.MilageTest" time="0.001"/>
+  <system-out><![CDATA[{com.pluralsight.airport.Passenger@249835=64, com.pluralsight.airport.Passenger@23514a=207}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
