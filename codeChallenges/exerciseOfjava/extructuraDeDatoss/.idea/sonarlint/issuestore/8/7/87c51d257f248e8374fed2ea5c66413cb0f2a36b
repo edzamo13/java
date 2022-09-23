@@ -1,14 +1,0 @@
-
-J
-java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜
-q
-java:S1450
-"VRemove the "numList" field and declare it as a local variable in the relevant methods.(”÷Û˜üÿÿÿÿ
-Q
-java:S1854";Remove this useless assignment to local variable "doubles".(—úð¤
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ì€ÿñ
-S
-java:S1197"8Move the array designator from the variable to the type.(»Â‰Àýÿÿÿÿ
-N	java:S106""9Replace this use of System.out or System.err by a logger.(ÞåŸ·
-S	java:S106)"9Replace this use of System.out or System.err by a logger.(¨„ë‰þÿÿÿÿ
-S	java:S1060"9Replace this use of System.out or System.err by a logger.(è³¿¼þÿÿÿÿ

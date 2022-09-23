@@ -1,39 +1,0 @@
-
-Q	java:S125"<This block of commented-out lines of code should be removed.(˜Ÿ¡®
-L
-java:S1854"6Remove this useless assignment to local variable "s1".(¦úæÔ
-Q	java:S125"<This block of commented-out lines of code should be removed.(ùŒ˜’
-;
-java:S1659" Declare "b2" on a separate line.(Ú—˜Âÿÿÿÿÿ
-6
-java:S1659" Declare "s2" on a separate line.(¦úæÔ
-6
-java:S1659 " Declare "d2" on a separate line.(Á€–Ç
-6
-java:S1659!" Declare "i2" on a separate line.(ÖêËÛ
-;
-java:S1659"" Declare "i4" on a separate line.(ÿ•™óùÿÿÿÿ
-B
-java:S1481"'Remove this unused "b1" local variable.(Ú—˜Âÿÿÿÿÿ
-B
-java:S1481"'Remove this unused "b2" local variable.(Ú—˜Âÿÿÿÿÿ
-=
-java:S1481"'Remove this unused "s1" local variable.(¦úæÔ
-=
-java:S1481"'Remove this unused "s2" local variable.(¦úæÔ
-=
-java:S1481 "'Remove this unused "d1" local variable.(Á€–Ç
-=
-java:S1481 "'Remove this unused "d2" local variable.(Á€–Ç
-=
-java:S1481!"'Remove this unused "i1" local variable.(ÖêËÛ
-=
-java:S1481!"'Remove this unused "i2" local variable.(ÖêËÛ
-B
-java:S1481""'Remove this unused "i3" local variable.(ÿ•™óùÿÿÿÿ
-B
-java:S1481""'Remove this unused "i4" local variable.(ÿ•™óùÿÿÿÿ
-D
-java:S1068")Remove this unused "brand" private field.(Şü‡şÿÿÿÿ
-?
-java:S1068")Remove this unused "empty" private field.(Òß¿­

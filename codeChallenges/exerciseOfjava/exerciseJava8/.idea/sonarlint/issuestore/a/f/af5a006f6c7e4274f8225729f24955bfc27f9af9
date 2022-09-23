@@ -1,22 +1,0 @@
-
-f
-java:S1854"IRemove this useless assignment to local variable "integerStreamTwoInTwo".(ÏËæõ8…‚Áæ/
-T	java:S106"9Replace this use of System.out or System.err by a logger.(³ß×=8±æ‰ç/
-W
-java:S1481":Remove this unused "integerStreamTwoInTwo" local variable.(ÏËæõ8…‚Áæ/
-X	java:S125"<This block of commented-out lines of code should be removed.(ïñÿø8…‚Áæ/
-T	java:S106!"9Replace this use of System.out or System.err by a logger.(íªú8¶¬ç/
-P
-java:S1481".Remove this unused "intStream" local variable.(ÚûëÒıÿÿÿÿ8»Äğå/
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø‘ÛÁ
-_
-java:S1854"=Remove this useless assignment to local variable "intStream".(ÚûëÒıÿÿÿÿ8»Äğå/
-O
-java:S1481"2Remove this unused "integerStream" local variable.(¦ûéİ8ìğå/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(À¦Ï­8ûŠÀæ/
-O
-java:S3958"2Refactor the code so this stream pipeline is used.(ÏËæõ8…‚Áæ/
-^
-java:S1854"ARemove this useless assignment to local variable "integerStream".(¦ûéİ8ìğå/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Òáæ“üÿÿÿÿ8¿Ëöæ/
-T	java:S106 "9Replace this use of System.out or System.err by a logger.(²»Ò:8åÒ·ç/
