@@ -1,10 +1,10 @@
-package ec.formos.vendor.fruit.fruit;
+package ec.formos.vendor.util;
 
-import ec.formos.vendor.abstractfactory.IngredientFactory;
-import ec.formos.vendor.abstractfactory.InventoryFactory;
-import ec.formos.vendor.beans.Inventory;
-import ec.formos.vendor.dto.Person;
-import ec.formos.vendor.enumerador.EnumType;
+import ec.formos.vendor.service.abstractfactory.IngredientFactory;
+import ec.formos.vendor.service.abstractfactory.InventoryFactory;
+import ec.formos.vendor.service.beans.Inventory;
+import ec.formos.vendor.model.Person;
+import ec.formos.vendor.enumerator.EnumType;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,5 +1,5 @@
 
-package ec.formos.vendor.service;
+package ec.formos.vendor.service.Visitor;
 
 import ec.formos.vendor.service.beans.Order;
 

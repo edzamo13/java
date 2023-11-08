@@ -1,5 +1,5 @@
 
-package ec.formos.vendor.service;
+package ec.formos.vendor.service.Visitor;
 
 import ec.formos.vendor.service.abstractfactory.IngredientFactory;
 import ec.formos.vendor.service.abstractfactory.InventoryFactory;
@@ -17,7 +17,7 @@ public class JuicePreparationVisitorImpl implements JuicePreparationVisitor {
                 .mapToDouble(ob -> ob.getAccounting())
                 .sum();
         order.setSellout(sum);
-        System.out.println("Sellout!!:  "+ sum);
+        System.out.println("Sellout!!:  "+ sum + "$");
         return order;
     }
 

@@ -1,10 +1,10 @@
-package ec.formos.vendor.fruit.fruit;
+package ec.formos.vendor;
 
 
-import ec.formos.vendor.dto.Person;
-import ec.formos.vendor.service.Order;
-import ec.formos.vendor.service.JuicePreparationVisitor;
-import ec.formos.vendor.service.JuicePreparationVisitorImpl;
+import ec.formos.vendor.model.Person;
+import ec.formos.vendor.service.beans.Order;
+import ec.formos.vendor.service.Visitor.JuicePreparationVisitor;
+import ec.formos.vendor.service.Visitor.JuicePreparationVisitorImpl;
 import ec.formos.vendor.service.Validation;
 import ec.formos.vendor.util.LoadParameter;
 import lombok.Getter;
@@ -12,6 +12,8 @@ import lombok.Setter;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class App {
@@ -34,7 +36,7 @@ public class App {
 
 
     static final int MEASURE = 300;
-
+    private final static Logger LOGGER = Logger.getLogger("bitacora.fruitDrinks");
     public static void main(String[] args) {
         sn = new Scanner(System.in);
         f = new Scanner(System.in);
@@ -55,6 +57,8 @@ public class App {
             System.out.println("2. Preparation of fruit juice");
             System.out.println("3. Sellout ");
             System.out.println("4. Exit!..");
+
+
 
             try {
 
@@ -93,13 +97,14 @@ public class App {
                         break;
                     case 4:
                         System.out.println("bye!..");
+                        LOGGER.log(Level.INFO,"Bye");
                         salir = true;
                         break;
                     default:
-                        System.out.println("Solo números entre 1 y 4");
+                        LOGGER.log(Level.WARNING,"Only numbers  1 - 4");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Debes insertar un número");
+                LOGGER.log(Level.WARNING,"Only numbers !!.");
                 sn.next();
             }
         }

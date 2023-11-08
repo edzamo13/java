@@ -1,4 +1,4 @@
-package ec.formos.vendor.dto;
+package ec.formos.vendor.model;
 
 import lombok.Getter;
 import lombok.Setter;
