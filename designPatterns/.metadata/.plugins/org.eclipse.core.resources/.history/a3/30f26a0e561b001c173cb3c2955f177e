@@ -1,5 +1,0 @@
-package ec.com.openwebinar.solid.liskovSubtitutionPrinciple.solution;
-
-public class ReadOnlySqlFile implements SqlFile{
-
-}

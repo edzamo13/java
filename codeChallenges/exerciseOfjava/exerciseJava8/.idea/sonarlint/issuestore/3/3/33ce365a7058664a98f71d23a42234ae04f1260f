@@ -1,13 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°ığ½ùÿÿÿÿ
-Y
-java:S3655,"7Call "Optional#isPresent()" before accessing the value.(Ï­‹ßÿÿÿÿÿ8Ğã‚“/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ8ù¥î/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Éë¸…úÿÿÿÿ8ğÆô‘/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰¡óĞşÿÿÿÿ8Äªò‘/
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(µÑÀ›üÿÿÿÿ8­™’/
-U	java:S106&"9Replace this use of System.out or System.err by a logger.(à€°Ä8‘Â§’/
-u
-java:S1602,"SRemove useless curly braces around statement and then remove useless return keyword(Ï­‹ßÿÿÿÿÿ8›üˆ“/
-]	java:S125-"<This block of commented-out lines of code should be removed.(ÿõÉ¦üÿÿÿÿ8Æ¢‚“/
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(Íş€Šÿÿÿÿÿ8ğ„“/
