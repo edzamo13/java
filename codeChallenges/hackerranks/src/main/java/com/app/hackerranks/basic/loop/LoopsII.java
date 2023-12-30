@@ -1,4 +1,4 @@
-package com.app.hackerranks.basic;
+package com.app.hackerranks.basic.loop;
 
 import java.util.ArrayList;
 import java.util.List;

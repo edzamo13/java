@@ -1,9 +1,9 @@
-package com.app.hackerranks.basic;
+package com.app.hackerranks.basic.loop;
 
 import java.io.*;
 
 
-public class LoopsI {
+public class BasicLoopsI {
 
     public static void main(String[] args) throws IOException {
 
