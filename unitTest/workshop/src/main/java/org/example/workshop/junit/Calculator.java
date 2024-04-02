@@ -1,4 +1,4 @@
-package org.example.workshop.junit.vogella;
+package org.example.workshop.junit;
 
 public class Calculator {
 

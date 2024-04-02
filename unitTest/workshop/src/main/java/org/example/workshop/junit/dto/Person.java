@@ -1,4 +1,4 @@
-package org.example.workshop.junit.vogella.unittest.dto;
+package org.example.workshop.junit.dto;
 
 
 import lombok.Builder;

@@ -2,6 +2,7 @@ package org.example.workshop.junit.vogella;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.example.workshop.junit.Calculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
@@ -33,4 +34,11 @@ class CalculatorTest {
   void multiplyException() {
     assertThrows(IllegalArgumentException.class, () -> calculator.multiplyException(1000, 5));
   }
+
+  @Test
+  void testExceptionIsThrown() {
+
+    assertThrows(IllegalArgumentException.class, () -> calculator.multiply(1000, 5));
+  }
+
 }

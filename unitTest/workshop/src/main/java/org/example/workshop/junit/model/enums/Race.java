@@ -1,4 +1,4 @@
-package org.example.workshop.junit.vogella.unittest.model.enums;
+package org.example.workshop.junit.model.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
