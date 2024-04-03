@@ -1,0 +1,3 @@
+https://www.vogella.com/tutorials/JUnit/article.html#google_vignette
+
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#stubbing
