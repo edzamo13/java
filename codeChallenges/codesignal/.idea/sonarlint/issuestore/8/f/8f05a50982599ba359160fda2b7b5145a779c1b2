@@ -1,11 +1,0 @@
-
-J
-java:S1066"/Merge this if statement with the enclosing one.(Öß§ûÿÿÿÿÿ
-U	java:S106
-"9Replace this use of System.out or System.err by a logger.( ìüÂ8‹ñô›/
-C
-java:S1172"(Remove this unused method parameter "l".(œéÖéøÿÿÿÿ
-@
-java:S1481"*Remove this unused "value" local variable.(‘ØºÕ
-A
-java:S1481"&Remove this unused "x" local variable.(¾„ëüÿÿÿÿ

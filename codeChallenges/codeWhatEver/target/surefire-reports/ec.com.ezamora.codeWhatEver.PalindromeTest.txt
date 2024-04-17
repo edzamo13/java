@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: ec.com.ezamora.codeWhatEver.PalindromeTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ec.com.ezamora.codeWhatEver.PalindromeTest
-test(ec.com.ezamora.codeWhatEver.PalindromeTest)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError
-	at ec.com.ezamora.codeWhatEver.PalindromeTest.test(PalindromeTest.java:14)
-
