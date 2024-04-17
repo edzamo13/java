@@ -6,43 +6,50 @@ Projects made in Angular for the learning of Angular framework
 
 
 ## Table of Contents
-1. [angular-desde-cero](#SpringBootMVC)
-2. [angular8](#SpringCore5)
-3. [aweather](#Secured-spring-rest-api)
-4. [SpringLearn](#SpringLearn)
+1. [code-challenges](#code-challenges)
+2. [functional-reactive](#functional-reactive)
+3. [java-collections](#java-collections)
+4. [learning-java](#learning-java)
 5. [Installation](#Installation)
 6. [Collaboration](#collaboration)
 7. [FAQs](#faqs)
 ***
-### SpringBootMVC
-A list of examples in Spring boot MVC for example:
-* Create of Controladores
-* Repository
-* Create of Controladores
-* Crud , Jpa
-* MVC con thymeleaf
-* [Spring boot MVC](https://example.com): Version 1234
+### code-challenges
+A list of examples or challenges where you can skills developments :
+* codeWhatEver
+* codesignal
+* extructura-datos
+* fruit
+* etc ..
+
 ***
-## springCore5
-A list of examples in Spring boot MVC for example:
-* Bean
-* Scand Component
-* Autowired
-* MVC with thymeleaf
+## functional-reactive
+Java reactive programming :
+* fp-class-chapter - BP 
+* fp-class2-solutions - BP 
+* function-programing-poc
+* rxJava/reactive-programming-java-12-rxjava-2
 ***
-## SpringLearn
-A list of examples in Spring boot MVC for example:
-* In construction
-* 
-* 
-* 
+
+## java-collections
+Java colection class and Example :
+* Colecciones
+* ColeccionesTerceros
+* etc ..
 ***
-## Secured-spring-rest-api
-A list of examples in Spring boot MVC for example:
-* Authentication Basic
-* JWT
-* OAuth2
-* 
+## learning-java
+Java learning:
+* Project about:
+    * apistream
+    * basic
+    * callable
+    * colleciones
+    * comparator
+    * concurrency
+    * enums
+
+* etc ..
+
 ***
 ## Installation
 A little intro about the installation. 
