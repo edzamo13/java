@@ -25,12 +25,14 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
+  <!--  <dependency>
       <groupId>io.reactivex.rxjava3</groupId>
       <artifactId>rxjava</artifactId>
       <version>3.0.4</version>
     </dependency>
+     -->
   </dependencies>
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
