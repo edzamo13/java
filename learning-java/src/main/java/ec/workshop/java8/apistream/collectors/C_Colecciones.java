@@ -35,6 +35,8 @@ public class C_Colecciones {
 				.collect(Collectors.toMap(Empleado::getNombre, Empleado::getSalario));
 		System.out.println(mapEmpleados);
 
+		empleados.stream().map()
+
 	}
 
 }
