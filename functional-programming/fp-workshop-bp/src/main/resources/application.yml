@@ -1,0 +1,15 @@
+info:
+  project:
+    name: function-programing-poc
+    version: 1.0.0
+spring:
+  application:
+    name: function-programing-poc
+  main:
+    allow-bean-definition-overriding: on
+    lazy-initialization: on
+    banner-mode: off
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false

@@ -1,0 +1,15 @@
+info:
+  project:
+    name: fp-class2
+    version: 1.0.0
+spring:
+  application:
+    name: fp-class2
+  main:
+    allow-bean-definition-overriding: on
+    lazy-initialization: on
+    banner-mode: off
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
