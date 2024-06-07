@@ -1,0 +1,49 @@
+Las operaciones terminales más comunes que se encuentran en Stream son:
+
+anyMatch()
+allMatch()
+noneMatch()
+findAny()
+findFirst()
+min()
+max()
+reduce()
+count()
+toArray()
+collect()
+forEach()
+
+----- Operaciones intermedias
+filter(…)
+map(…)
+flatMap(…)
+distinct(…)
+limit(…)
+peek(…)
+skip(…)
+sorted(…)
+
+filter
+La operación de filtrado de Stream tiene la siguiente forma:
+
+Stream filter(Predicatesuper T> predicate)
+public Stream getJavaCourses(List courses){
+    return courses.stream()
+        .filter(course -> course.contains("Java"));
+}
+
+map
+La operación map puede parecer complicada en un principio e incluso confusa si estas acostumbrado a usar Map, pero cabe
+resaltar que no hay relación entre la estructura y la operación. La operación es meramente una transformación de un tipo
+a otro.
+
+Stream map(Functionsuper T, ? extends R> mapper)
+
+flatMap
+En ocasiones no podremos evitar encontrarnos con streams del tipo Stream>, donde tenemos datos con muchos datos…
+Si mantener la estructura de las listas (o colecciones) no es importante para el procesamiento de los datos que
+contengan, entonces podemos usar flatMap para simplificar la estructura del Stream, pasándolo de Stream> a Stream.
+
+ Stream flatMap(Functionsuper T, ? extends Stream> mapper)
+
+
