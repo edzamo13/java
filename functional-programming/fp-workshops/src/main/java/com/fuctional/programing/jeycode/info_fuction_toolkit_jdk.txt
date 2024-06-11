@@ -1,0 +1,17 @@
+   import java.util.Comparator;
+import java.util.concurrent.Callable;
+import java.util.function.BiFunction;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+
+    //Callable<T>
+    //Runnable
+    //ButtonActionListener
+    //Predicate<T> ==> Test boolean test(T t)
+    //Supplier<T> ==> T get()
+    //Consumer<T> ==> void accept(T t) & andThen
+    //Function<T,R>
+    //BiFunction<T,R>
+    //Comparator<T>
