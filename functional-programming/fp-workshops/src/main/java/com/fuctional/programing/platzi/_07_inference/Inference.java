@@ -52,17 +52,6 @@ public class Inference {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
     private static List<Integer> getNumbers(){
         List<Integer> numbers = new LinkedList<>();
         numbers.add(1);
@@ -76,25 +65,6 @@ public class Inference {
 
         return numbers;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     private static Stream<Integer> getOperable(List<Integer> list) {
         return list.stream();
