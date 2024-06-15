@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class Product {
 
   private String sku;
-  private String na;
+  private String name;
   private Double price;
   private boolean discount;
 

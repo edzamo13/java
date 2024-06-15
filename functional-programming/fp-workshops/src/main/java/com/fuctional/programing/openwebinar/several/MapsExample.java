@@ -1,4 +1,4 @@
-package com.fuctional.programing.openwebinar.map;
+package com.fuctional.programing.openwebinar.several;
 
 import com.fuctional.programing.openwebinar.dto.Developer;
 import com.fuctional.programing.openwebinar.dto.Task;
@@ -27,7 +27,7 @@ public class MapsExample {
   }
 
   private static void mapOperations01(List<Developer> developers) {
-    //flapMap ussing for planing object
+    //flapMap using for planing object
     //When you have a data structure inside another data structure, we use flapMap
     developers.stream()
         .flatMap(developer -> developer.getTasks().stream())
