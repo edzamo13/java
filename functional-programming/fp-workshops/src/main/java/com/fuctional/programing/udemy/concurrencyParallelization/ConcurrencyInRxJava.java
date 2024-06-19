@@ -1,4 +1,4 @@
-package com.reactive.programming.udemy.reactive.concurrencyParallelization;
+package com.fuctional.programing.udemy.concurrencyParallelization;
 
 import io.reactivex.rxjava3.core.Observable;
 

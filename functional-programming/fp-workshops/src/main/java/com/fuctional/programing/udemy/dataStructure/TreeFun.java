@@ -1,4 +1,4 @@
-package com.reactive.programming.udemy.reactive.dataStructure;
+package com.fuctional.programing.udemy.dataStructure;
 
 @SuppressWarnings("rawtypes")
 public class TreeFun<E extends Comparable<E>> {

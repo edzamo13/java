@@ -1,6 +1,5 @@
-package com.fuctional.programing.openwebinar.several.operacionesterminales;
+package com.fuctional.programing.openwebinar.apistream.operacionesterminales;
 
-import com.fuctional.programing.openwebinar.dto.Product;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.fuctional.programing.openwebinar.several.creation;
+package com.fuctional.programing.openwebinar.apistream.creation;
 
 import java.util.stream.Stream;
 

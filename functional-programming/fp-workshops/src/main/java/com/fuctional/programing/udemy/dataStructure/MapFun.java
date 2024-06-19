@@ -1,4 +1,4 @@
-package com.reactive.programming.udemy.reactive.dataStructure;
+package com.fuctional.programing.udemy.dataStructure;
 
 public class MapFun<K,V> {
 

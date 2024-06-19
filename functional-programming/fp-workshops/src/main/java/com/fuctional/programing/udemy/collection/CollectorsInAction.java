@@ -1,4 +1,4 @@
-package com.reactive.programming.udemy.reactive.collection;
+package com.fuctional.programing.udemy.collection;
 
 import java.io.IOException;
 import java.nio.file.Files;

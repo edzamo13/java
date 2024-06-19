@@ -1,9 +1,9 @@
-package com.fuctional.programing.openwebinar.several.operacionesterminales;
+package com.fuctional.programing.openwebinar.apistream.operacionesintermedias;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Match {
+public class Distinct {
   public static void main(String[] args) {
 
     List<Integer> numbers = new ArrayList<>();

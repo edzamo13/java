@@ -1,4 +1,4 @@
-package com.fuctional.programing.openwebinar.several.operacionesintermedias;
+package com.fuctional.programing.openwebinar.apistream.operacionesintermedias;
 
 import java.util.ArrayList;
 import java.util.List;

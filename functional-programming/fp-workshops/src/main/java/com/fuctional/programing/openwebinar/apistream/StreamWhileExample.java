@@ -1,4 +1,4 @@
-package com.fuctional.programing.openwebinar.several;
+package com.fuctional.programing.openwebinar.apistream;
 
 import com.fuctional.programing.openwebinar.dto.Developer;
 import com.fuctional.programing.openwebinar.dto.Task;
